@@ -1,0 +1,91 @@
+
+div.chara-image {
+    position: absolute;
+    left: -20%;
+    width: 10px;
+    height: auto;
+}
+
+div.questionbox {
+    padding: 15px;
+    background-image: url(images/p0529_m.png);
+}
+
+div.question {
+    background-color: white;
+    margin: 70px auto 30px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+div.shindankekkabox {
+    padding: 15px;
+    background-image: url(images/p0529_m.png);
+}
+
+div.kekkanamebox {
+    background-color: white;
+    margin: 70px auto 30px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+div.imagebox {
+    display: flex;
+}
+
+
+/*選択肢のボタン*/
+button.btn-light {
+    width: 300px;
+    font-size: 20px;
+    height: 70px;
+    margin: 10px;
+    border-width: 3px;
+    border-color: red;
+    border-style: soild;
+}
+
+div.choices {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*戻る次へ*/
+div.option {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+button.btn-custom {
+    width: 300px;
+    height: 70px;
+    margin: 10px;
+    border-width: 5px;
+    border-color: green;
+    border-style: soild;
+}
+
+button.btn-custom:hover {
+    background-color: brown;
+}
+
+
+@media screen and (max-width:768px) {
+
+    div.choices {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    button.btn-light {
+        width: 160px;
+        height: 50px;
+        margin: 5px;
+    }
+}
